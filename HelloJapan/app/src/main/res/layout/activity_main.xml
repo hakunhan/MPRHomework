@@ -10,7 +10,7 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="Hiragana"
+                android:text="@string/hiragana_board"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_red_dark"
                 android:textSize="18sp" />
@@ -36,17 +36,18 @@
                 android:layout_width="364dp"
                 android:layout_height="699dp"
                 android:clickable="false"
-                android:contentDescription="Hiragana letter"
+                android:contentDescription="@string/hiragana_board"
                 android:scaleType="fitXY"
                 android:scrollbarSize="4dp"
                 app:srcCompat="@drawable/hiragana" />
+
         </LinearLayout>
     </ScrollView>
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="Katakana"
+                android:text="@string/katakana_board"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_red_dark"
                 android:textSize="18sp" />
@@ -72,7 +73,7 @@
                 android:layout_width="364dp"
                 android:layout_height="699dp"
                 android:clickable="false"
-                android:contentDescription="Katakana letter"
+                android:contentDescription="@string/katakana_board"
                 android:scaleType="fitXY"
                 android:scrollbarSize="4dp"
                 app:srcCompat="@drawable/katakana" />
