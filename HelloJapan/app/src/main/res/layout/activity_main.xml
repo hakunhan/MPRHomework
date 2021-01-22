@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,9 +36,46 @@
                 android:layout_width="364dp"
                 android:layout_height="699dp"
                 android:clickable="false"
+                android:contentDescription="Hiragana letter"
                 android:scaleType="fitXY"
                 android:scrollbarSize="4dp"
                 app:srcCompat="@drawable/hiragana" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/katakana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Katakana"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/katakanaImg"
+                android:layout_width="364dp"
+                android:layout_height="699dp"
+                android:clickable="false"
+                android:contentDescription="Katakana letter"
+                android:scaleType="fitXY"
+                android:scrollbarSize="4dp"
+                app:srcCompat="@drawable/katakana" />
         </LinearLayout>
     </ScrollView>
 
