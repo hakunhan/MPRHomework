@@ -8,9 +8,10 @@
     tools:context=".MainActivity">
 
     <ScrollView
+        android:id="@+id/hiragana_scrollView"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,32 +23,31 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/hiragana"
+                android:id="@+id/hiraganaTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:text="@string/hiragana_board"
                 android:textAlignment="center"
-                android:textColor="@android:color/holo_red_dark"
+                android:textColor="@color/holo_red_dark"
                 android:textSize="18sp" />
 
             <ImageView
-                android:id="@+id/HiraganaImg"
-                android:layout_width="364dp"
-                android:layout_height="699dp"
-                android:clickable="false"
-                android:contentDescription="@string/hiragana_board"
-                android:scaleType="fitXY"
-                android:scrollbarSize="4dp"
+                android:id="@+id/hiraganaImg"
+                android:layout_width="400dp"
+                android:layout_height="800dp"
+                android:scaleX="1.2"
+                android:scaleY="1"
                 app:srcCompat="@drawable/hiragana" />
 
         </LinearLayout>
     </ScrollView>
 
     <ScrollView
+        android:id="@+id/katakana_scrollView"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:visibility="invisible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,25 +59,61 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/katakana"
+                android:id="@+id/katakanaTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:text="@string/katakana_board"
                 android:textAlignment="center"
-                android:textColor="@android:color/holo_red_dark"
+                android:textColor="@color/holo_red_dark"
                 android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/katakanaImg"
-                android:layout_width="364dp"
-                android:layout_height="699dp"
-                android:clickable="false"
-                android:contentDescription="@string/katakana_board"
-                android:scaleType="fitXY"
-                android:scrollbarSize="4dp"
+                android:layout_width="400dp"
+                android:layout_height="800dp"
+                android:scaleX="1.2"
+                android:scaleY="1"
                 app:srcCompat="@drawable/katakana" />
+
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/katakanaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="667dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:foreground="@drawable/button_bg"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:text="@string/katakana_board"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/hiraganaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_bg"
+        android:foreground="@drawable/button_bg"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:text="@string/hiragana_board"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
