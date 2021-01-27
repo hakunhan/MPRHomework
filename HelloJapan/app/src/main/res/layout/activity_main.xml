@@ -8,6 +8,29 @@
     android:animateLayoutChanges="true"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/cherry_blossom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cherry_blossom_bg" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cherry_25240" />
+
     <ScrollView
         android:id="@+id/hiragana_scrollView"
         android:layout_width="wrap_content"
@@ -43,6 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_a"
@@ -55,6 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_i"
@@ -67,6 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_u"
@@ -79,6 +105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_e"
@@ -91,6 +118,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_o"
@@ -109,6 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ka"
@@ -121,6 +150,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ki"
@@ -133,6 +163,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ku"
@@ -145,6 +176,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ke"
@@ -157,6 +189,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ko"
@@ -175,6 +208,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_sa"
@@ -187,6 +221,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_shi"
@@ -199,6 +234,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_su"
@@ -211,6 +247,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_se"
@@ -223,6 +260,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_so"
@@ -241,6 +279,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ta"
@@ -253,6 +292,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_chi"
@@ -265,6 +305,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_tsu"
@@ -277,6 +318,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_te"
@@ -289,6 +331,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_to"
@@ -307,6 +350,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_na"
@@ -319,6 +363,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ni"
@@ -331,6 +376,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_nu"
@@ -343,6 +389,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ne"
@@ -355,6 +402,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_no"
@@ -373,6 +421,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ha"
@@ -385,6 +434,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_hi"
@@ -397,6 +447,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_fu"
@@ -409,6 +460,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_he"
@@ -421,6 +473,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ho"
@@ -439,6 +492,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ma"
@@ -451,6 +505,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_mi"
@@ -463,6 +518,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_mu"
@@ -475,6 +531,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_me"
@@ -487,6 +544,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_o"
@@ -505,6 +563,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ya"
@@ -517,12 +576,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -530,6 +590,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_yu"
@@ -542,12 +603,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -555,6 +617,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_yo"
@@ -573,6 +636,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ra"
@@ -585,6 +649,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ri"
@@ -597,6 +662,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ru"
@@ -609,6 +675,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_re"
@@ -621,6 +688,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_ro"
@@ -639,6 +707,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_wa"
@@ -651,12 +720,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -664,12 +734,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -677,12 +748,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -690,6 +762,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_wo"
@@ -708,6 +781,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/hir_n"
@@ -720,12 +794,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -733,12 +808,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -746,12 +822,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -759,12 +836,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:alpha="0.75"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
             </LinearLayout>
 
@@ -775,7 +853,7 @@
         android:id="@+id/katakana_scrollView"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:visibility="invisible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -802,6 +880,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -814,6 +893,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_i"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -826,6 +906,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_u"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -838,6 +919,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_e"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -850,6 +932,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_o"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -868,6 +951,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ka"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -880,6 +964,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ki"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -892,6 +977,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ku"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -904,6 +990,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ke"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -916,6 +1003,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ko"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -934,6 +1022,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_sa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -946,6 +1035,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_shi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -958,6 +1048,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_su"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -970,6 +1061,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_se"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -982,6 +1074,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_so"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1000,6 +1093,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1012,6 +1106,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_chi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1024,6 +1119,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_tsu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1036,6 +1132,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_te"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1048,6 +1145,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_to"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1066,6 +1164,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_na"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1078,6 +1177,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ni"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1090,6 +1190,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_nu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1102,6 +1203,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ne"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1114,6 +1216,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_no"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1132,6 +1235,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ha"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1144,6 +1248,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_hi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1156,6 +1261,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_fu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1168,6 +1274,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_he"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1180,6 +1287,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ho"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1198,6 +1306,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ma"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1210,6 +1319,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_mi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1222,6 +1332,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_mu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1234,6 +1345,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_me"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1246,6 +1358,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_mo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1264,6 +1377,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ya"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1276,19 +1390,21 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_yu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1301,19 +1417,21 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_yo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1332,6 +1450,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ra"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1344,6 +1463,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ri"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1356,6 +1476,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ru"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1368,6 +1489,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_re"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1380,6 +1502,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_ro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1398,6 +1521,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_wa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1410,45 +1534,49 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_wo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1467,6 +1595,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_n"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -1479,55 +1608,59 @@
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton5"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton6"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton7"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
 
                 <Button
+                    android:alpha="0.75"
                     android:id="@+id/kat_blankButton8"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
+                    android:clickable="false"
                     android:foreground="@drawable/button_bg"
                     android:text="@string/blank"
                     android:textColor="@color/black"
                     android:textSize="14sp"
-                    android:clickable="false"
                     app:backgroundTint="@null" />
             </LinearLayout>
 
@@ -1535,6 +1668,7 @@
     </ScrollView>
 
     <Button
+        android:alpha="0.75"
         android:id="@+id/katakanaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -1554,6 +1688,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
+        android:alpha="0.75"
         android:id="@+id/hiraganaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
