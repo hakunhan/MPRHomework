@@ -2,6 +2,7 @@ package com.example.hellojapan;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (buttonTwo) {
                     hiraganaScrollView.setVisibility(View.VISIBLE);
-                    katakanaScrollView.setVisibility(View.INVISIBLE);
+                    katakanaScrollView.setVisibility(View.GONE);
+
+                    hiraganaButton.setBackgroundColor(Color.parseColor("#FF03DAC5"));
+                    katakanaButton.setBackgroundColor(Color.parseColor("#FFFFFFFF"));
+
                     buttonOne = true;
                     buttonTwo = false;
                 }
@@ -40,7 +45,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (buttonOne){
                     katakanaScrollView.setVisibility(View.VISIBLE);
-                    hiraganaScrollView.setVisibility(View.INVISIBLE);
+                    hiraganaScrollView.setVisibility(View.GONE);
+
+                    katakanaButton.setBackgroundColor(Color.parseColor("#FF03DAC5"));
+                    hiraganaButton.setBackgroundColor(Color.parseColor("#FFFFFFFF"));
+
                     buttonOne = false;
                     buttonTwo = true;
                 }
