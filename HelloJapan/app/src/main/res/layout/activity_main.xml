@@ -5,26 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:animateLayoutChanges="true"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/cherry_blossom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="316dp"
+        android:layout_width="411dp"
+        android:layout_height="317dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/cherry_blossom_bg" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/chery_blossom2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="388dp"
         android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -955,8 +956,9 @@
         android:id="@+id/katakana_scrollView"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:alpha="0"
         android:scrollbarSize="8dp"
-        android:visibility="gone"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -983,7 +985,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_a"
+                    android:id="@+id/kat_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -992,13 +994,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickA"
-                    android:text="@string/kar_a"
+                    android:text="@string/kat_a"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_i"
+                    android:id="@+id/kat_i"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1007,13 +1009,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickI"
-                    android:text="@string/kar_i"
+                    android:text="@string/kat_i"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_u"
+                    android:id="@+id/kat_u"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1022,13 +1024,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickU"
-                    android:text="@string/kar_u"
+                    android:text="@string/kat_u"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_e"
+                    android:id="@+id/kat_e"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1037,13 +1039,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickE"
-                    android:text="@string/kar_e"
+                    android:text="@string/kat_e"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_o"
+                    android:id="@+id/kat_o"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1052,7 +1054,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickO"
-                    android:text="@string/kar_o"
+                    android:text="@string/kat_o"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1064,7 +1066,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_ka"
+                    android:id="@+id/kat_ka"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1073,13 +1075,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickKa"
-                    android:text="@string/kar_ka"
+                    android:text="@string/kat_ka"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ki"
+                    android:id="@+id/kat_ki"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1088,13 +1090,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickKi"
-                    android:text="@string/kar_ki"
+                    android:text="@string/kat_ki"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ku"
+                    android:id="@+id/kat_ku"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1103,13 +1105,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickKu"
-                    android:text="@string/kar_ku"
+                    android:text="@string/kat_ku"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ke"
+                    android:id="@+id/kat_ke"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1118,13 +1120,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickKe"
-                    android:text="@string/kar_ke"
+                    android:text="@string/kat_ke"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ko"
+                    android:id="@+id/kat_ko"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1133,7 +1135,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickKo"
-                    android:text="@string/kar_ko"
+                    android:text="@string/kat_ko"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1145,7 +1147,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_sa"
+                    android:id="@+id/kat_sa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1154,13 +1156,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickSa"
-                    android:text="@string/kar_sa"
+                    android:text="@string/kat_sa"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_shi"
+                    android:id="@+id/kat_shi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1169,13 +1171,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickShi"
-                    android:text="@string/kar_shi"
+                    android:text="@string/kat_shi"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_su"
+                    android:id="@+id/kat_su"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1184,13 +1186,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickSu"
-                    android:text="@string/kar_su"
+                    android:text="@string/kat_su"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_se"
+                    android:id="@+id/kat_se"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1199,13 +1201,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickSe"
-                    android:text="@string/kar_se"
+                    android:text="@string/kat_se"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_so"
+                    android:id="@+id/kat_so"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1214,7 +1216,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickSo"
-                    android:text="@string/kar_so"
+                    android:text="@string/kat_so"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1226,7 +1228,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_ta"
+                    android:id="@+id/kat_ta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1235,13 +1237,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickTa"
-                    android:text="@string/kar_ta"
+                    android:text="@string/kat_ta"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_chi"
+                    android:id="@+id/kat_chi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1250,13 +1252,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickChi"
-                    android:text="@string/kar_chi"
+                    android:text="@string/kat_chi"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_tsu"
+                    android:id="@+id/kat_tsu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1265,13 +1267,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickTsu"
-                    android:text="@string/kar_tsu"
+                    android:text="@string/kat_tsu"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_te"
+                    android:id="@+id/kat_te"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1280,13 +1282,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickTe"
-                    android:text="@string/kar_te"
+                    android:text="@string/kat_te"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_to"
+                    android:id="@+id/kat_to"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1295,7 +1297,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickTo"
-                    android:text="@string/kar_to"
+                    android:text="@string/kat_to"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1307,7 +1309,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_na"
+                    android:id="@+id/kat_na"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1316,13 +1318,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickNa"
-                    android:text="@string/kar_na"
+                    android:text="@string/kat_na"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ni"
+                    android:id="@+id/kat_ni"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1331,13 +1333,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickNi"
-                    android:text="@string/kar_ni"
+                    android:text="@string/kat_ni"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_nu"
+                    android:id="@+id/kat_nu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1346,13 +1348,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickNu"
-                    android:text="@string/kar_nu"
+                    android:text="@string/kat_nu"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ne"
+                    android:id="@+id/kat_ne"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1361,13 +1363,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickNe"
-                    android:text="@string/kar_ne"
+                    android:text="@string/kat_ne"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_no"
+                    android:id="@+id/kat_no"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1376,7 +1378,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickNo"
-                    android:text="@string/kar_no"
+                    android:text="@string/kat_no"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1388,7 +1390,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_ha"
+                    android:id="@+id/kat_ha"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1397,13 +1399,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickHa"
-                    android:text="@string/kar_ha"
+                    android:text="@string/kat_ha"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_hi"
+                    android:id="@+id/kat_hi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1412,13 +1414,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickHi"
-                    android:text="@string/kar_hi"
+                    android:text="@string/kat_hi"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_fu"
+                    android:id="@+id/kat_fu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1427,13 +1429,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickFu"
-                    android:text="@string/kar_fu"
+                    android:text="@string/kat_fu"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_he"
+                    android:id="@+id/kat_he"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1442,13 +1444,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickHe"
-                    android:text="@string/kar_he"
+                    android:text="@string/kat_he"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ho"
+                    android:id="@+id/kat_ho"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1457,7 +1459,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickHo"
-                    android:text="@string/kar_ho"
+                    android:text="@string/kat_ho"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1469,7 +1471,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_ma"
+                    android:id="@+id/kat_ma"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1478,13 +1480,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickMa"
-                    android:text="@string/kar_ma"
+                    android:text="@string/kat_ma"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_mi"
+                    android:id="@+id/kat_mi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1493,13 +1495,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickMi"
-                    android:text="@string/kar_mi"
+                    android:text="@string/kat_mi"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_mu"
+                    android:id="@+id/kat_mu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1508,13 +1510,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickMu"
-                    android:text="@string/kar_mu"
+                    android:text="@string/kat_mu"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_me"
+                    android:id="@+id/kat_me"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1523,13 +1525,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickMe"
-                    android:text="@string/kar_me"
+                    android:text="@string/kat_me"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_mo"
+                    android:id="@+id/kat_mo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1538,7 +1540,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickMo"
-                    android:text="@string/kar_mo"
+                    android:text="@string/kat_mo"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1550,7 +1552,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_ya"
+                    android:id="@+id/kat_ya"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1559,13 +1561,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickYa"
-                    android:text="@string/kar_ya"
+                    android:text="@string/kat_ya"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton"
+                    android:id="@+id/kat_blankButton"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1580,7 +1582,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_yu"
+                    android:id="@+id/kat_yu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1589,13 +1591,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickYu"
-                    android:text="@string/kar_yu"
+                    android:text="@string/kat_yu"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton1"
+                    android:id="@+id/kat_blankButton1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1610,7 +1612,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_yo"
+                    android:id="@+id/kat_yo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1619,7 +1621,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickYo"
-                    android:text="@string/kar_yo"
+                    android:text="@string/kat_yo"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1631,7 +1633,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_ra"
+                    android:id="@+id/kat_ra"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1640,13 +1642,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickRa"
-                    android:text="@string/kar_ra"
+                    android:text="@string/kat_ra"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ri"
+                    android:id="@+id/kat_ri"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1655,13 +1657,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickRi"
-                    android:text="@string/kar_ri"
+                    android:text="@string/kat_ri"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ru"
+                    android:id="@+id/kat_ru"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1670,13 +1672,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickRu"
-                    android:text="@string/kar_ru"
+                    android:text="@string/kat_ru"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_re"
+                    android:id="@+id/kat_re"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1685,13 +1687,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickRe"
-                    android:text="@string/kar_re"
+                    android:text="@string/kat_re"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_ro"
+                    android:id="@+id/kat_ro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1700,7 +1702,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickRo"
-                    android:text="@string/kar_ro"
+                    android:text="@string/kat_ro"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1712,7 +1714,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_wa"
+                    android:id="@+id/kat_wa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1721,13 +1723,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickWa"
-                    android:text="@string/kar_wa"
+                    android:text="@string/kat_wa"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton2"
+                    android:id="@+id/kat_blankButton2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1742,7 +1744,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton3"
+                    android:id="@+id/kat_blankButton3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1757,7 +1759,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton4"
+                    android:id="@+id/kat_blankButton4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1772,7 +1774,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_wo"
+                    android:id="@+id/kat_wo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1781,7 +1783,7 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickWo"
-                    android:text="@string/kar_wo"
+                    android:text="@string/kat_wo"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
@@ -1793,7 +1795,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/kar_n"
+                    android:id="@+id/kat_n"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -1802,13 +1804,13 @@
                     android:fontFamily="@font/noto_serif_jp_light"
                     android:foreground="@drawable/button_bg"
                     android:onClick="onClickN"
-                    android:text="@string/kar_n"
+                    android:text="@string/kat_n"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton5"
+                    android:id="@+id/kat_blankButton5"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1823,7 +1825,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton6"
+                    android:id="@+id/kat_blankButton6"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1838,7 +1840,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton7"
+                    android:id="@+id/kat_blankButton7"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1853,7 +1855,7 @@
                     app:backgroundTint="@null" />
 
                 <Button
-                    android:id="@+id/kar_blankButton8"
+                    android:id="@+id/kat_blankButton8"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1892,14 +1894,14 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:fontFamily="@font/noto_serif_jp_light"
         android:id="@+id/hiraganaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="667dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="84dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/teal_200"
+        android:background="@color/sakura_pink"
+        android:fontFamily="@font/noto_serif_jp_light"
         android:foreground="@drawable/button_bg"
         android:scaleX="0.7"
         android:scaleY="0.7"
