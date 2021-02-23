@@ -3,4 +3,6 @@
     <string name="welcome">Welcome!</string>
     <string name="description">Enter link to video then click Play</string>
     <string name="edit_link">Link to video</string>
+    <string name="video_link"> https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</string>
+    <string name="video_link2">https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4</string>
 </resources>
