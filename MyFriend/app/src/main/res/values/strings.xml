@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Friend</string>
+    <string name="text_view">Click item for actions, (+) for adding another friend.</string>
+</resources>
